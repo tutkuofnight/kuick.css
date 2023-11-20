@@ -15,6 +15,21 @@ $counter: 100;
       .mx-#{$i} { margin-left: #{$i}px; margin-right: #{$i}px; }
       .my-#{$i} { margin-top: #{$i}px; margin-bottom: #{$i}px; }
       .m-#{$i} { margin: #{$i}px; }
+      
+      .-pr-#{$i} { padding-right: -#{$i}px; }
+      .-pl-#{$i} { padding-left: -#{$i}px; }
+      .-pt-#{$i} { padding-top: -#{$i}px; }
+      .-pb-#{$i} { padding-bottom: -#{$i}px; }
+      .-px-#{$i} { padding-left: -#{$i}px; padding-right: -#{$i}px; }
+      .-py-#{$i} { padding-top: -#{$i}px; padding-bottom: -#{$i}px; }
+      .-p-#{$i} { padding: -#{$i}px; }
+      .-ml-#{$i} { margin-left: -#{$i}px; }
+      .-mr-#{$i} { margin-right: -#{$i}px; }
+      .-mt-#{$i} { margin-top: -#{$i}px; }
+      .-mb-#{$i} { margin-bottom: -#{$i}px; }
+      .-mx-#{$i} { margin-left: -#{$i}px; margin-right: -#{$i}px; }
+      .-my-#{$i} { margin-top: -#{$i}px; margin-bottom: -#{$i}px; }
+      .-m-#{$i} { margin: -#{$i}px; }
   }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "kuick.css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mini css file for page & component layout creation",
   "main": "index.js",
   "scripts": {
