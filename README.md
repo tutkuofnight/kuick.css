@@ -18,5 +18,5 @@ pnpm add kuick.css
 ```
 And include your main ``.js`` file:
 ```js
-import 'kucik.min.css'
+import 'kuick.min.css'
 ```
