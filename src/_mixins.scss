@@ -1,6 +1,6 @@
+$counter: 100;
 @mixin spacers {
-  $spaceCount: 100;
-  @for $i from 1 through $spaceCount {
+  @for $i from 1 through $counter {
       .pr-#{$i} { padding-right: #{$i}px; }
       .pl-#{$i} { padding-left: #{$i}px; }
       .pt-#{$i} { padding-top: #{$i}px; }
@@ -15,5 +15,13 @@
       .mx-#{$i} { margin-left: #{$i}px; margin-right: #{$i}px; }
       .my-#{$i} { margin-top: #{$i}px; margin-bottom: #{$i}px; }
       .m-#{$i} { margin: #{$i}px; }
+  }
+}
+
+@mixin flex-gap {
+  @for $i from 1 through $counter {
+      .gap-#{$i} { gap: #{$i}px;}
+      .gap-y-#{$i} { gap: #{$i}px 0px; }
+      .gap-x-#{$i} { gap: 0px #{$i}px; }
   }
 }
