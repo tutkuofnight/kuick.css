@@ -1,0 +1,35 @@
+{
+  "name": "kuick.css",
+  "version": "1.0.0",
+  "description": "Mini css file for page & component layout creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutkuofnight/kuick.css.git"
+  },
+  "keywords": [
+    "CSS",
+    "Layout"
+  ],
+  "author": "Tutku Uçan <tutkuucan369@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutkuofnight/kuick.css/issues"
+  },
+  "homepage": "https://github.com/tutkuofnight/kuick.css#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
