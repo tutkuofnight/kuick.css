@@ -1,5 +1,5 @@
 # kuick.css 🎇
-Mini css file for helping page &amp; component layout creation
+Mini css library based page &amp; component layout creation
 
 ### How to use?
 Use with CDN:
