@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'kucik.min.css',
+      filename: 'kuick.min.css',
     }),
   ],
   optimization: {

@@ -2,7 +2,7 @@
   "name": "kuick.css",
   "version": "1.0.3",
   "description": "Mini css file for page & component layout creation",
-  "main": "dist/kucik.min.css",
+  "main": "dist/kuick.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
