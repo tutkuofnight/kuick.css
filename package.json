@@ -1,6 +1,6 @@
 {
   "name": "kuick.css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mini css file for page & component layout creation",
   "main": "dist/kuick.min.css",
   "scripts": {
