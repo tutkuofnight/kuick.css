@@ -40,3 +40,8 @@ $counter: 100;
       .gap-x-#{$i} { gap: 0px #{$i}px; }
   }
 }
+@mixin flex-list {
+  @for $i from 1 through $counter {
+      .flex-#{$i} { flex: #{$i}; }
+  }
+}
